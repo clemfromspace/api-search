@@ -1,0 +1,113 @@
+body, html, #root, .ais-InstantSearch__root {
+  height: 100%;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.menu .ais-SearchBox {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+.menu .ais-SearchBox-input {
+  line-height: 2;
+}
+
+.menu__category {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu__category label {
+  margin-right: 5px;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+.Hits {
+  margin-top: 10px;
+  max-height: calc(100vh - 220px);
+  overflow: scroll;
+}
+
+.Hits__hit {
+  border-bottom: 1px solid #E4E6F0;
+  margin-top: 15px;
+  padding-bottom: 15px;
+}
+
+.Hits__hit .tags {
+  font-size: 0.8rem;
+}
+
+.Hits__hit .tags__tag {
+  margin-right: 10px;
+}
+
+.Hits__hit .tags__tag i {
+  margin-right: 3px;
+}
+
+.Hits__hit p {
+  margin: 0;
+}
+
+.Hits__hit p strong {
+  font-weight: 600;
+}
+
+.ais-Highlight-highlighted {
+  background: none;
+  font-style: inherit;
+  text-decoration: underline;
+}
+
+.ais-ToggleRefinement-labelText {
+  margin-left: 5px;
+}
+
+.ais-InfiniteHits {
+  text-align: center;
+}
+
+.ais-InfiniteHits-list {
+  margin: 0;
+  text-align: left;
+}
+
+.ais-InfiniteHits-item {
+  border: none;
+  display: block;
+  width: 100%;
+  box-shadow: none;
+  padding: 0;
+  margin: 0;
+}
+
+h1 {
+  text-align: center;
+  margin: 10px 0 0 0;
+  line-height: 3rem;
+}
+
+h4 {
+  margin-bottom: 5px;
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
