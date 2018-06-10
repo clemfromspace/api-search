@@ -43,9 +43,9 @@
 }
 
 .ais-PoweredBy-text {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
   white-space: nowrap;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 .ais-Menu-noResults {
@@ -59,12 +59,12 @@
 }
 
 .ais-Menu-list {
-  padding: .5rem 0;
+  padding: 0.5rem 0;
 }
 
 .ais-Menu-item,
 .ais-ToggleRefinement {
-  padding: .5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .ais-ToggleRefinement-label {
@@ -85,13 +85,13 @@
 }
 
 .ais-Menu-count {
-  font-size: .875rem;
+  font-size: 0.875rem;
   color: #b8c2cc;
   font-weight: normal;
 }
 
 .ais-ToggleRefinement-checkbox {
-  margin-right: .5rem;
+  margin-right: 0.5rem;
 }
 
 .ais-Menu-searchBox .ais-SearchBox {
@@ -106,10 +106,9 @@
 .ais-Menu-searchBox .ais-SearchBox-input,
 .ais-Menu-searchBox .ais-SearchBox-submit,
 .ais-Menu-searchBox .ais-SearchBox-reset {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
-
 
 .ais-InfiniteHits {
   width: 100%;
@@ -132,13 +131,13 @@
 
 .ais-InfiniteHits-loadMore {
   width: 100%;
-  margin-top: .5rem;
+  margin-top: 0.5rem;
   padding: 1rem;
-  border-radius: .25rem;
+  border-radius: 0.25rem;
   color: #b8c2cc;
   border: 2px solid #dae1e7;
   font-weight: bold;
-  transition: all .1s linear;
+  transition: all 0.1s linear;
 }
 
 .ais-InfiniteHits-loadMore:hover {
@@ -151,7 +150,7 @@
 }
 
 .transition {
-  transition: all .1s linear;
+  transition: all 0.1s linear;
 }
 
 .overflow-y-scroll {
