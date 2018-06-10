@@ -9,6 +9,9 @@
 # production
 /build
 
+# development
+/src/tailwind.css
+
 # misc
 .DS_Store
 .idea
