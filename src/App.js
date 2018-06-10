@@ -101,7 +101,7 @@ class App extends Component {
         >
           <div className="flex flex-col h-screen font-sans">
             <header className="flex bg-white w-full border-grey-light border-solid border-b flex-no-shrink">
-              <div className="p-4 md:w-64 items-center flex-no-shrink border-grey-light border-solid border-r hidden md:flex">
+              <div className="p-4 lg:w-64 xxl:w-80 items-center flex-no-shrink border-grey-light border-solid border-r hidden md:flex">
                 <h1 className="text-base text-grey-darker uppercase tracking-wide">
                   Public API Search
                 </h1>
@@ -120,7 +120,7 @@ class App extends Component {
               </div>
             </header>
             <div className="flex flex-grow">
-              <aside className="w-64 flex-no-shrink bg-white border-grey-light border-solid border-r z-10 max-h-screen hidden md:block overflow-hidden">
+              <aside className="lg:w-64 xxl:w-80 flex-no-shrink bg-white border-grey-light border-solid border-r z-10 max-h-screen hidden md:block overflow-hidden">
                 <div className="h-full overflow-y-auto">
                   <h4 className="font-normal uppercase text-xs tracking-wide text-grey-dark p-4 border-grey-light border-solid">
                     Categories
