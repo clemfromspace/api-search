@@ -194,6 +194,7 @@ module.exports = {
 
   fonts: {
     'sans': [
+      'Hind',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
@@ -250,6 +251,7 @@ module.exports = {
   */
 
   textSizes: {
+    'xxs': '.65rem',
     'xs': '.75rem',     // 12px
     'sm': '.875rem',    // 14px
     'base': '1rem',     // 16px
@@ -483,6 +485,7 @@ module.exports = {
     '32': '8rem',
     '48': '12rem',
     '64': '16rem',
+    '72': '20rem',
     '1/2': '50%',
     '1/3': '33.33333%',
     '2/3': '66.66667%',
@@ -867,7 +870,7 @@ module.exports = {
     pointerEvents: ['responsive'],
     position: ['responsive'],
     resize: ['responsive'],
-    shadows: ['responsive'],
+    shadows: ['responsive', 'hover'],
     svgFill: [],
     svgStroke: [],
     textAlign: ['responsive'],
