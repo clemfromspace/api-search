@@ -32,6 +32,7 @@
   order: 2;
   padding: 1rem 0;
   flex-grow: 1;
+  min-width: 0;
 }
 
 .ais-SearchBox-reset {
@@ -71,7 +72,8 @@
 }
 
 .ais-Menu-item--selected {
-  border-right: 2px solid #3490dc;
+  font-weight: bold;
+  box-shadow: inset -2px 0 0 0 #5468ff;
 }
 
 .ais-Menu-link {
@@ -85,6 +87,7 @@
 .ais-Menu-count {
   font-size: .875rem;
   color: #b8c2cc;
+  font-weight: normal;
 }
 
 .ais-ToggleRefinement-checkbox {
@@ -94,6 +97,10 @@
 .ais-Menu-searchBox .ais-SearchBox {
   border-top: 1px solid #dae1e7;
   border-bottom: 1px solid #dae1e7;
+}
+
+.ais-Menu--noRefinement .ais-Menu-searchBox .ais-SearchBox {
+  border-bottom: none;
 }
 
 .ais-Menu-searchBox .ais-SearchBox-input,
@@ -122,7 +129,9 @@
   font-weight: bold;
 }
 
-.ais-InfiniteHits-loadMore {
+.ais-InfiniteHits-loadMore,
+.ais-InfiniteHits-loadMore:active,
+.ais-InfiniteHits-loadMore:visited {
   width: 100%;
   margin-top: .5rem;
   padding: 1rem;
@@ -130,6 +139,7 @@
   color: #b8c2cc;
   border: 2px solid #dae1e7;
   font-weight: bold;
+  transition: all .1s linear;
 }
 
 .ais-InfiniteHits-loadMore--disabled {
