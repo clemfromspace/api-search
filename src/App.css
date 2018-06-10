@@ -1,3 +1,17 @@
+::-webkit-input-placeholder {
+  line-height: normal;
+}
+
+.ais-PoweredBy-link {
+  height: 1rem;
+  display: block;
+}
+
+.ais-PoweredBy-logo {
+  height: 100%;
+  width: auto;
+}
+
 .ais-SearchBox-form,
 .ais-SearchBox-input {
   height: 100%;
@@ -29,6 +43,8 @@
 
 .ais-PoweredBy-text {
   margin-right: .5rem;
+  white-space: nowrap;
+  font-size: .85rem;
 }
 
 .ais-Menu-noResults {
@@ -48,6 +64,10 @@
 .ais-Menu-item,
 .ais-ToggleRefinement {
   padding: .5rem 1rem;
+}
+
+.ais-ToggleRefinement-label {
+  cursor: pointer;
 }
 
 .ais-Menu-item--selected {
@@ -79,12 +99,22 @@
 .ais-Menu-searchBox .ais-SearchBox-input,
 .ais-Menu-searchBox .ais-SearchBox-submit,
 .ais-Menu-searchBox .ais-SearchBox-reset {
-  padding-top: .5rem;
-  padding-bottom: .5rem;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
 }
 
 .ais-InfiniteHits {
   width: 100%;
+}
+
+.ais-InfiniteHits-item {
+  display: block;
+}
+
+.ais-InfiniteHits-item::after {
+  content: '';
+  display: table;
+  clear: both;
 }
 
 .ais-Highlight-highlighted {
@@ -94,6 +124,7 @@
 
 .ais-InfiniteHits-loadMore {
   width: 100%;
+  margin-top: .5rem;
   padding: 1rem;
   border-radius: .25rem;
   color: #b8c2cc;
@@ -107,6 +138,10 @@
 
 .transition {
   transition: all .1s linear;
+}
+
+.overflow-y-scroll {
+  -webkit-overflow-scrolling: touch;
 }
 
 aside.max-h-screen,
