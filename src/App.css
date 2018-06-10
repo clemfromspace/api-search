@@ -110,6 +110,7 @@
   padding-bottom: .75rem;
 }
 
+
 .ais-InfiniteHits {
   width: 100%;
 }
@@ -129,9 +130,7 @@
   font-weight: bold;
 }
 
-.ais-InfiniteHits-loadMore,
-.ais-InfiniteHits-loadMore:active,
-.ais-InfiniteHits-loadMore:visited {
+.ais-InfiniteHits-loadMore {
   width: 100%;
   margin-top: .5rem;
   padding: 1rem;
@@ -140,6 +139,11 @@
   border: 2px solid #dae1e7;
   font-weight: bold;
   transition: all .1s linear;
+}
+
+.ais-InfiniteHits-loadMore:hover {
+  background: #dae1e7;
+  color: #fff;
 }
 
 .ais-InfiniteHits-loadMore--disabled {
