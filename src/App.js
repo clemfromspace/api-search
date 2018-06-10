@@ -61,7 +61,7 @@ class App extends Component {
                 <h1 className="text-base text-grey-darker uppercase tracking-wide">Public API Search</h1>
               </div>
               <div className="flex flex-grow justify-between">
-                <SearchBox className="h-full flex-grow" translations={{ placeholder: 'Search for "Weather", "Movie"...' }}/>
+                <SearchBox className="h-full flex-grow" autoFocus="true" translations={{ placeholder: 'Search for "Weather", "Movie"...' }}/>
                 <div className="flex items-center border-grey-light border-solid border-l px-4 flex-no-shrink">
                   <PoweredBy className="flex flex-col sm:flex-row"/>
                 </div>
