@@ -34,7 +34,7 @@
 
 .ais-SearchBox-input {
   order: 2;
-  padding: 1rem 1rem 1rem 3rem;
+  padding: 1rem 3rem;
   margin: 0.75rem;
   background: #f1f5f8;
   outline: none;
@@ -110,11 +110,20 @@
 .ais-Menu-searchBox .ais-SearchBox-reset {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
-  height: 3rem;
 }
 
 .ais-Menu-searchBox .ais-SearchBox-input {
   margin-top: 0;
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.ais-Menu-searchBox .ais-SearchBox-submit {
+  left: 0.75rem;
+}
+
+.ais-Menu-searchBox .ais-SearchBox-reset {
+  right: 0.75rem;
 }
 
 .ais-Menu-searchBox .ais-SearchBox-submit,
