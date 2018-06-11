@@ -115,7 +115,7 @@ class App extends Component {
                   }}
                 />
                 <div className="flex items-center border-grey-light border-solid border-l px-4 flex-no-shrink">
-                  <PoweredBy className="flex flex-col sm:flex-row" />
+                  <PoweredBy className="flex flex-col md:items-center sm:flex-row" />
                 </div>
               </div>
             </header>
