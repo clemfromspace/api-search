@@ -125,7 +125,14 @@ class App extends Component {
                   <h4 className="font-normal uppercase text-xs tracking-wide text-grey-dark p-4 border-grey-light border-solid">
                     Categories
                   </h4>
-                  <Menu attribute="Category" limit={8} searchable={true} />
+                  <Menu
+                    attribute="Category"
+                    limit={8}
+                    searchable={true}
+                    translations={{
+                      placeholder: 'Search for categories'
+                    }}
+                  />
                   <h4 className="font-normal uppercase text-xs tracking-wide text-grey-dark px-4 pt-4 pb-1 border-grey-light border-solid border-t">
                     Features
                   </h4>
