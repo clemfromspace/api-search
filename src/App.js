@@ -182,7 +182,7 @@ class App extends Component {
                 >
                   @cdenoix
                 </a>{' '}
-                - Fork it on{' '}
+                -{' '}
                 <a
                   href="https://github.com/clemfromspace/api-search"
                   className="text-blue hover:text-blue-darker transition no-underline"
