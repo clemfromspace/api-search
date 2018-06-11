@@ -180,5 +180,5 @@
 
 aside.max-h-screen,
 main.max-h-screen {
-  max-height: calc(100vh - 125px);
+  max-height: calc(100vh - 124px);
 }
