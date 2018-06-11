@@ -181,8 +181,18 @@ class App extends Component {
                   rel="noopener noreferrer"
                 >
                   @cdenoix
+                </a>{' '}
+                - Fork it on{' '}
+                <a
+                  href="https://github.com/clemfromspace/api-search"
+                  className="text-blue hover:text-blue-darker transition no-underline"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  GitHub
                 </a>
               </div>
+              <div />
               <div className="text-center sm:text-right mt-2 sm:mt-0">
                 Data from{' '}
                 <a
