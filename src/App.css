@@ -40,7 +40,7 @@
   outline: none;
   flex-grow: 1;
   min-width: 0;
-  border-radius: 0.25rem;
+  border-radius: 4px;
 }
 
 .ais-SearchBox-reset {
