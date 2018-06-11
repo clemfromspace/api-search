@@ -15,7 +15,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "tailwind:css": "tailwind build src/tailwind.src.css -c  tailwind.js -o src/tailwind.css",
-    "netlify:redirects": "echo 'http://api-search.netlify.com/* http://api-search.io/:splat 301!' > build/_redirects"
+    "netlify:redirects": "echo $'http://api-search.netlify.com/* http://api-search.io/:splat 301!\nhttps://api-search.netlify.com/* https://api-search.io/:splat 301!' > build/_redirects"
   },
   "devDependencies": {
     "tailwindcss": "^0.5.3"
