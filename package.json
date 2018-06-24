@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "fragments.css": "^1.0.38-alpha",
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
     "react-instantsearch": "^5.1.0",
