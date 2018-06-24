@@ -1,6 +1,7 @@
 module.exports = {
   content: ['src/App.js'],
-  css: ['src/tailwind.css'],
+  css: ['src/tailwind.css', 'src/App.css'],
+  whitelistPatterns: [/ais-.*/],
   extractors: [
     {
       extractor: class {
@@ -8,7 +9,7 @@ module.exports = {
           return content.match(/[A-z0-9-:\/]+/g) || []
         }
       },
-      extensions: ['html', 'js']
+      extensions: ['js']
     }
   ]
 }
