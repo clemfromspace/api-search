@@ -9,11 +9,11 @@
     "react-scripts": "1.1.4"
   },
   "scripts": {
-    "start": "npm run tailwind:css && npm run purgecss && react-scripts start",
-    "build": "npm run tailwind:css && npm run purgecss && react-scripts build && npm run netlify:redirects",
+    "start": "npm run tailwind && npm run purgecss && react-scripts start",
+    "build": "npm run tailwind && npm run purgecss && react-scripts build && npm run netlify:redirects",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "tailwind:css": "tailwind build src/normalize.src.css -c tailwind.js -o src/normalize.css && tailwind build src/tailwind.src.css -c tailwind.js -o src/tailwind.css",
+    "tailwind": "tailwind build src/normalize.src.css -c tailwind.js -o src/normalize.css && tailwind build src/tailwind.src.css -c tailwind.js -o src/tailwind.css",
     "netlify:redirects": "echo 'https://api-search.netlify.com/* https://api-search.io/:splat 301!' > build/_redirects",
     "purgecss": "purgecss -c purgecss.config.js -o src"
   },
