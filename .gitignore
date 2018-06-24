@@ -11,6 +11,7 @@
 
 # development
 /src/tailwind.css
+/src/normalize.css
 
 # misc
 .DS_Store
