@@ -7,7 +7,7 @@ import {
   Highlight,
   ToggleRefinement,
   InfiniteHits
-} from 'react-instantsearch/dom'
+} from 'react-instantsearch-dom'
 import './App.css'
 
 const Hit = ({ hit }) => {
